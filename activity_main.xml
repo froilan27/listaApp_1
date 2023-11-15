@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="39dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:paddingLeft="30dp">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="221dp"
+            android:layout_height="60dp"
+
+            android:background="#FFEB3B"
+            android:text="polera_cerrada"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="#DE93E6"
+
+            android:text="PC_Color_Color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="223dp"
+            android:layout_height="60dp"
+            android:background="#7DD880"
+            android:text="Dep_Sublimada"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:background="#E37F5F"
+            android:text="Polera_Adidas"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/button7" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:background="#7888DD"
+            android:text="PC_BlancoColor"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:background="#DF6D94"
+            android:text="Dep_Replica"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="282dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="225dp"
+            android:layout_height="60dp"
+            android:background="#DDBE61"
+            android:text="Conj_Colegio"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="41dp" />
+    </LinearLayout>
+</RelativeLayout>
